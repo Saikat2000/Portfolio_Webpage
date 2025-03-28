@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    
+}
+nav > a{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+}
