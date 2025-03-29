@@ -12,7 +12,7 @@ nav{
 nav > a{
     font-size: 25px;
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
     color: aliceblue;
 }
 #welcome-section{
@@ -43,6 +43,8 @@ nav > a{
     border-bottom: 1px solid white;
     text-align: center;
 }
+@media () {
+  }
 span{
     color: rgba(240, 6, 6, 0.881);
 }
@@ -59,4 +61,31 @@ span{
 .container p{
     text-align: center;
     font-size: 1.5rem;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #c8e6c9;
+}
+#contact > h1{
+    margin: 0;
+    font-size: 5rem;
+}
+#contact > p{
+    margin: 0;
+    font-size: 1.8rem;
+}
+.contact-links{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 20px;
+}
+.btn{
+    font-size: 2rem;
+    text-decoration: none;
 }
